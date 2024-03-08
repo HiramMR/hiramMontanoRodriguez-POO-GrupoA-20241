@@ -38,9 +38,9 @@ public class Main {
                         BankAccount cuenta = new BankAccount(numeroCuenta, saldoCuenta,tipoCuenta);
                         if(tipoCuenta.equalsIgnoreCase("A")){
                             cuenta.depositA(tipoCuenta, saldoCuenta);
-                    }else if(tipoCuenta.equals("B")){
+                    }else if(tipoCuenta.equalsIgnoreCase("B")){
                             cuenta.depositB(tipoCuenta, saldoCuenta);
-                    }else if(tipoCuenta.equals("C")){
+                    }else if(tipoCuenta.equalsIgnoreCase("C")){
                             cuenta.depositC(tipoCuenta, saldoCuenta);
                     }else{
                             System.out.println("Tipo de cuenta incorrecta.");
